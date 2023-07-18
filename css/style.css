@@ -21,4 +21,11 @@
   justify-content: center;
 }
 
+.ul-noticias {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  padding-top: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
