@@ -21,11 +21,24 @@
   justify-content: center;
 }
 
+.navcentrado {
+  display: flex;
+  justify-content: center;
+}
+
 .ul-noticias {
   display: flex;
   justify-content: center;
   margin: 5px;
   padding-top: 5px;
+}
+
+.nav-link {
+  font-family: "belanosima";
+}
+
+.nav-link:hover {
+  text-shadow: 1px 1px 1px gray;
 }
 
 .formulario {
@@ -35,7 +48,7 @@
   width: 400px;
   padding: 10px;
   margin: auto;
-  border: 50px #FC7300;
+  border: 5px solid #181823;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }

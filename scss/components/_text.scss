@@ -2,7 +2,11 @@
     justify-content: center;
     margin: 5px;
     padding-top: 5px;
+}
 
-
-
+.nav-link{ 
+    font-family: "belanosima";
+}
+.nav-link:hover{ 
+    text-shadow: 1px 1px 1px gray;
 }
