@@ -48,14 +48,6 @@
   margin-left: 15px;
 }
 
-.INFO {
-  font-family: "belanosima";
-  font-size: 18px;
-  background-color: #1F8A70;
-  height: 30px;
-  width: 100vw;
-}
-
 .formulario {
   font-family: "belanosima";
   background-color: #1F8A70;
@@ -94,6 +86,16 @@
   height: 100px;
   margin-top: 10px;
   resize: none;
+}
+
+.info {
+  font-family: "belanosima";
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
+  background-color: #1F8A70;
+  height: 200px;
+  width: 100vw;
 }
 
 /*# sourceMappingURL=style.css.map */
