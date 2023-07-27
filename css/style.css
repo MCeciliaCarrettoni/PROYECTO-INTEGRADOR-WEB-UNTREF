@@ -15,13 +15,15 @@
   background-image: url(../assets/img/librosbanner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  background-position-y: center;
+  height: 80vh;
   width: 100vw;
   align-items: center;
   justify-content: center;
 }
 
 .navcentrado {
+  font-family: "belanosima";
   display: flex;
   justify-content: center;
   background-color: #00425A;
@@ -30,6 +32,7 @@
 }
 
 .ul-noticias {
+  font-family: "belanosima";
   display: flex;
   justify-content: center;
   margin: 5px;
@@ -47,8 +50,12 @@
 
 .nav-item {
   border: 1px solid black;
-  border-radius: 8%;
+  border-radius: 20%;
   margin-left: 15px;
+}
+
+.container {
+  font-family: "belanosima";
 }
 
 .formulario {
@@ -56,11 +63,12 @@
   background-color: #1F8A70;
   background-size: 90% 90%;
   width: 400px;
-  padding: 10px;
+  padding: 5px;
   margin: auto;
   border: 5px solid #181823;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  border-radius: 20px;
 }
 
 .form label {
