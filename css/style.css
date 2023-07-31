@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #1F8A70;
+}
+
 .titulo {
   font-family: Belanosima, sans-serif;
   color: #1F8A70;
@@ -27,9 +31,11 @@
   font-family: "belanosima";
   display: flex;
   justify-content: center;
-  background-color: #00425A;
-  height: 80px;
   width: 100vw;
+}
+
+.barra {
+  background-color: #00425A;
 }
 
 .ul-noticias {
@@ -51,7 +57,6 @@
 
 .nav-item {
   border: 1px solid black;
-  border-radius: 20%;
   margin-left: 15px;
 }
 
@@ -103,12 +108,17 @@
 .info {
   font-family: "belanosima";
   font-size: 18px;
-  text-decoration: none;
-  list-style: none;
-  color: #181823;
+  color: #EFF5F5;
   background-color: #00425A;
-  height: 225px;
   width: 100vw;
+  padding-top: 20px;
+}
+.info li {
+  list-style: none;
+}
+.info li a {
+  text-decoration: none;
+  color: #EFF5F5;
 }
 
 /*# sourceMappingURL=style.css.map */

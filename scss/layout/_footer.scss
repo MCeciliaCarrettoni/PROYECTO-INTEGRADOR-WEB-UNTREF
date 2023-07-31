@@ -1,10 +1,20 @@
-.info{ 
+.info {
     font-family: "belanosima";
     font-size: 18px;
-    text-decoration: none;
-    list-style: none;
-    color: #181823;
+
+
+    color: #EFF5F5;
     background-color: #00425A;
-    height: 225px;
     width: 100vw;
+    padding-top: 20px;
+
+    li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            color: #EFF5F5;
+        }
     }
+
+}
